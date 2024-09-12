@@ -1,0 +1,29 @@
+# Ignore node_modules directory
+node_modules
+
+# Ignore log files
+*.log
+
+# Ignore Dockerfile and .dockerignore itself
+Dockerfile
+.dockerignore
+
+# Ignore Git files and directories
+.git
+.gitignore
+
+# Ignore build directories
+dist
+build
+
+# Ignore environment variables and config files
+.env
+.env.local
+
+# Ignore any temporary files or directories
+tmp/
+*.swp
+*.swo
+
+# Ignore coverage files from tests
+coverage
